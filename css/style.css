@@ -1,0 +1,55 @@
+body {
+    background-color: #444444; /* can use colour picker extension on chrome to pick colour if in browser */
+        border: 3px solid;
+        border-color: #777777;
+        padding: 20px;
+        margin: 50px;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h1, h2, h4, p, ul {
+    color: white;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: #BABABA;
+}
+
+h4 {
+    font-family: sans-serif;
+}
+
+a:visited {
+    color: #75C78E;
+    text-decoration: underline; /* how to get the underline back once the link has been visited? */
+}
+
+a {
+    color: white;
+    text-decoration: none; /* so that there is no underline before the link has been visited */
+}
+
+hr {
+    color: #777777;
+    border: 1px solid; /* doesn't seem to be best practise to change 'hr' colour */
+}
+
+img {
+    float:right;
+    border: 2px solid;
+    border-color: #777777;
+    padding: 5px;
+    margin: 10px; /*between text and image */
+}
